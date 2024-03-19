@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">  //jsx and the type should be text/babel for them to understand
+        /*ReactDOM.render(
+            "Welcome to React ra Punda!!", what to render
+            document.querySelector("p") where to render
+        )*/
+
+        const root = ReactDOM.createRoot(document.querySelector("p")); //create root
+        root.render("Hello ! React"); // render root
+    </script>
+</head>
+<body>
+    <h2>Home - using react</h2>
+    <p></p>
+    <a href="index.html">Index Page</a>
+</body>
+</html>
